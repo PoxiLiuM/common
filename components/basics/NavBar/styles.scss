@@ -1,0 +1,19 @@
+$height : 75px;
+
+nav{
+  background: blue;
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    line-height: $height;
+    li{
+      background: green;
+      padding: 0 20px;
+      cursor: pointer;
+    }
+    li:hover{
+      background: lightgreen;
+    }
+  }
+}

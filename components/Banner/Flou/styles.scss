@@ -1,0 +1,22 @@
+.banner-flou{
+  background: url('../../../images/depannmoi/depanneuse-floue.jpg');
+  height: 60vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  > h1 {
+    margin: 10px;
+  }
+  > a{
+    margin-top: 15px;
+  }
+}

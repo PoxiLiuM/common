@@ -28,13 +28,13 @@
 
 @media all and (max-width: 850px){
   .about{
-    height: 150vh;
+    height: 850px;
     display: flex;
     flex-direction: column;
     padding: 0 !important;
     > div:nth-child(1){
       width: 90vw;
-      min-height: 750px;
+      min-height: 550px;
       display: flex;
       > div{
         margin: auto;
@@ -42,7 +42,7 @@
     }
     > div:nth-child(2){
       background: url('../../images/depannmoi/depanneuse.jpg');
-      height: 50vh;
+      height: 300px;
       width: 100vw;
       background-repeat: no-repeat;
       background-size: cover;
@@ -56,11 +56,30 @@
     height: 750px;
     > div:nth-child(1){
       min-height: 550px;
-      > div {
-        p{
-          text-align: justify;
-        }
-      }
+    }
+    > div:nth-child(2){
+      height: 200px;
+    }
+  }
+}
+
+@media all and (max-width: 600px){
+  .about{
+    height: 800px;
+    > div:nth-child(1){
+      min-height: 600px;
+    }
+    > div:nth-child(2){
+      height: 200px;
+    }
+  }
+}
+
+@media all and (max-width: 430px){
+  .about{
+    height: 1000px;
+    > div:nth-child(1){
+      min-height: 800px;
     }
     > div:nth-child(2){
       height: 200px;

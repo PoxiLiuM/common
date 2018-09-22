@@ -6,6 +6,10 @@ import logo from '../../../images/depannmoi/newlogo.png';
 
 class NavBar extends React.Component{
 
+  constructor(props){
+    super(props);
+  }
+
   render(){
     return(
       <nav className="navbar content">

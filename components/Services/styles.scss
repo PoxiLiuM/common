@@ -1,7 +1,8 @@
 section.services{
   // position: absolute;
   background: white;
-  min-height: 80vh;
+  height: 60vh;
+  min-height: 480px;
   width: 100vw;
   box-sizing: border-box;
   display: flex;
@@ -17,6 +18,7 @@ section.services{
     border-bottom: 1px solid #AAA;
   }
   .three-elements{
+    margin-top: 0 !important;
     display: flex;
     justify-content: space-around;
     article{
@@ -24,7 +26,7 @@ section.services{
       text-align: center;
       > h1{
         font-size: 1.5rem;
-        height: 50px;
+        height: 40px;
       }
       > p{
         font-size: 1.1rem;
@@ -43,12 +45,15 @@ section.services{
 }
 
 @media all and (max-width: 800px){
-  section{
+  section.services{
+    height: 80vh;
+    min-height: 1000px;
     .three-elements{
+      margin-top: 50px;
       flex-direction: column;
       align-items: center;
       article{
-        margin: 30px;
+        margin: 10px;
         width: 80% !important;
       }
     }

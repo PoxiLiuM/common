@@ -1,32 +1,84 @@
 .about{
   background: rgb(48, 55, 69);
   height: 100vh;
+  min-height: 470px;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: white;
-  > div{
-    width: 70%;
-    > div{
+  padding-right: 0 !important;
+  > div:nth-child(1){
+    width: 50vw;
+    > div {
       text-align: justify;
-      margin-bottom: 40px;
-      font-size: 1.3rem;
+      p:nth-child(3){
+        margin-bottom: 40px;
+      }
+    }
+  }
+  > div:nth-child(2){
+    background: url('../../images/depannmoi/depanneuse.jpg');
+    height: 100%;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 850px){
+  .about{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    > div:nth-child(1){
+      width: 90vw;
+      min-height: 750px;
+      display: flex;
+      > div{
+        margin: auto;
+      }
+    }
+    > div:nth-child(2){
+      background: url('../../images/depannmoi/depanneuse.jpg');
+      height: 50vh;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
   }
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 850px) and (max-height: 430px){
   .about{
-    > div {
-      width: 90%;
-      > div{
-        font-size: 1rem;
-        > h1 {
-          font-size: 1.3rem;
-          text-align: left;
+    height: 750px;
+    > div:nth-child(1){
+      min-height: 550px;
+      > div {
+        p{
+          text-align: justify;
         }
       }
     }
+    > div:nth-child(2){
+      height: 200px;
+    }
   }
 }
+
+// @media all and (max-width: 800px){
+//   .about{
+//     > div {
+//       width: 90%;
+//       > div{
+//         font-size: 1rem;
+//         > h1 {
+//           font-size: 1.3rem;
+//           text-align: left;
+//         }
+//       }
+//     }
+//   }
+// }

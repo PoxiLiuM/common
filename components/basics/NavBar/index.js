@@ -6,10 +6,6 @@ import logo from '../../../images/depannmoi/newlogo.png';
 
 class NavBar extends React.Component{
 
-  constructor(props){
-    super(props);
-  }
-
   render(){
     return(
       <nav className="navbar content">
@@ -17,10 +13,10 @@ class NavBar extends React.Component{
           <img src={logo} alt="Logo" />
         </div>
         <div className="navbar--item">
-          <a href="#">{this.context.t("home")}</a>
-          <a href="#">{this.context.t("our_services")}</a>
-          <a href="#">{this.context.t("tarification")}</a>
-          <a href="#">{this.context.t("contact_us")}</a>
+          <a href="">{this.context.t("home")}</a>
+          <a href="">{this.context.t("our_services")}</a>
+          <a href="">{this.context.t("tarification")}</a>
+          <a href="">{this.context.t("contact_us")}</a>
           {/*<a href="#" className="navbar--item-highlight">Me dépanner</a>*/}
         </div>
       </nav>

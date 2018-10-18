@@ -7,5 +7,17 @@
   "depannage_remorquage" : "Dépannage Remorquage",
   "24h24_7j7" : "Un service fonctionnant 24h24 7/7 qui vous dépanne partout en France",
   "me_depanner" : "Me dépanner",
-  "nous_appeler" : "Nous appeler"
+  "nous_appeler" : "Nous appeler",
+
+  "no_old_notification" : "Aucune ancienne notification",
+
+  "empty_app" : "Application vide",
+  "empty_app_description" : "Il semblerait que l'application n'ait pas été créée.",
+  "popup_ok" : "OK",
+
+  "settings_app_title" : "Réglages",
+  "search" : "Recherche",
+
+  "camera_disabled" : "Caméra désactivée"
+
 }

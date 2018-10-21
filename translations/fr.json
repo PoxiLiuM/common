@@ -26,5 +26,16 @@
   "controle_center" : "Centre de contrôle",
   "general" : "Général",
   "background" : "Fond d'écran",
-  "confidentialite" : "Confidentialité"
+  "confidentialite" : "Confidentialité",
+
+  "portable" : "portable",
+  "portable_value" : "06 88 52 xx xx",
+  "email_office" : "bureau",
+  "email_value" : "alexandre@pontes.fr",
+  "domicile" : "domicile",
+  "domicile_value" : "Auvers Sur Oise",
+  "anniversaire" : "anniversaire",
+  "anniversaire_value" : "25 mars 1997",
+
+  "updated_at_the_moment" : "Mise à jour à l'instant"
 }
